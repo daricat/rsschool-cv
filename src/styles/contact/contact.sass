@@ -1,0 +1,42 @@
+.contact
+    padding: 50px 0
+
+.contact__title
+    @include sectionTitle
+
+.contact__info
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin: 25px 0 0 0
+    & li
+        display: flex
+        flex-direction: row
+        align-items: center
+        max-width: 350px
+        width: 100%
+        height: 85px
+        box-sizing: border-box
+        padding: 25px 20px        
+        border-radius: 15px
+        background: rgb(87,0,149)
+        background: linear-gradient(45deg, rgb(143 0 245 / 41%) 23%, rgb(252 0 255 / 46%) 91%)
+        transition: .2s
+        & a
+            font-family: 'Montserrat-ExtraBold'
+            font-size: 20px
+            letter-spacing: 0.3px
+            color: $yellow
+            &:active, &:visited
+                color: $yellow
+        &:hover
+            box-shadow: 0px 0 20px white
+        &:hover .contacts__icon
+            transform: scale(1.2)
+                
+
+.contacts__icon
+    width: 45px
+    margin: 0 25px 0 0
+    transition: .2s

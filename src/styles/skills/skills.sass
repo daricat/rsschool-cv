@@ -1,0 +1,32 @@
+.skills-list
+    background: linear-gradient(45deg, rgb(159 105 198 / 27%) 23%, rgb(207 128 207 / 41%) 91%)
+    padding: 15px
+    border-radius: 25px
+    & li
+        font-family: 'Montserrat'
+        font-size: 20px
+
+.skills__title, .tools__title
+    @include sectionTitle
+
+.skills-category
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+
+.skills-item h3
+    text-transform: uppercase
+    font-family: 'Montserrat-ExtraBold'
+    filter: drop-shadow(3px 0 0 #d600ff)
+
+.skills-item
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin: 0 0 25px 0
+    & span
+        margin: 0 0 0 25px
+
+.skills-icon, .tools-icon
+    width: 50px

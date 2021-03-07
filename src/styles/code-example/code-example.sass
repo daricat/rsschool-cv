@@ -1,0 +1,64 @@
+.codexamp__title
+    @include sectionTitle
+
+.slider
+    display: flex
+    flex-direction: row
+    align-items: center
+
+.swiper-button-prev
+    filter: drop-shadow(-5px 0px 0px #8100ff)
+    &:hover
+        transform: scale(1.1) translateX(-5px)
+
+.swiper-button-next
+    filter: drop-shadow(5px 0px 0px #8100ff)
+    &:hover
+        transform: scale(1.1) translateX(5px)
+
+.swiper-button-prev, .swiper-button-next
+    position: relative
+    color: $yellow
+    font-weight: bold
+    transition: 0.2s
+
+.code-item
+    display: flex
+    flex-direction: row
+    align-items: center
+    width: 100%
+    height: 250px
+    padding: 25px 25px
+    box-sizing: border-box
+    border-radius: 35px
+    border: 2px double $yellow
+    @include bgBlack
+    transition: .5s ease
+    & span
+        font-family: 'Montserrat-ExtraBold'
+        text-transform: uppercase
+        font-size: 30px
+        margin: 0 0 0 30px
+        color: #8000ff
+        filter: drop-shadow(4px 0px 0px $yellow)
+
+.code-item[data-app='puzzle']:hover
+    @include bgPuzzle
+
+.code-item[data-app='keyboard']:hover
+    @include keyboard
+
+.code-item[data-app='calculator']:hover
+    @include calcul
+
+.code-item[data-app='cssgame']:hover
+    @include cssgame
+
+.code-item[data-app='weather']:hover
+    @include weather
+
+.code-item[data-app='english']:hover
+    @include english
+
+.code-icon
+    width: 135px
