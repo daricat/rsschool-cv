@@ -10,7 +10,8 @@ Minsk
 
 ### Summary
 ***
-I want to become a great front-end developer. In the future I plan to study other programming languages and expand my knowledge in computer science!
+I'm a beginner front-end specialist, my main goal is to start a career and participate in the development of complex and interesting applications. As a specialist, additionally I want to deepen my knowledge of computer sciense and algorithms.
+My education and personal interest in design's field of allows me to consider the development process more broadly, since development and design are closely interconnected between themselves.
 
 ### Skills
 ***
