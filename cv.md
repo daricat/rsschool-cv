@@ -19,9 +19,10 @@ My education and personal interest in design's field of allows me to consider th
 Name of skill  | Level of scill
 ------------- | :-------------:
 HTML-CSS-SASS  | 8/10 
-JS | 5/10
+JS | 7/10
 Git | 4/10 
 Photoshop-Illustrator | 6/10
+Figma | 6/10
 
 ### Code examples
 ***
@@ -29,6 +30,7 @@ Photoshop-Illustrator | 6/10
 [Landing](https://daricat.github.io/index.html)
 
 ### Experience
+Coming soon ...
 ***
 
 [Landing](https://daricat.github.io/index.html)
