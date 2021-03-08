@@ -5,32 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="styles.css">    
-    <script defer src="main.c5aa26c850ec4e01a815.js"></script><link href="main.css" rel="stylesheet"></head>
+    <script defer src="main.b9e734f7b817e9450640.js"></script><link href="main.css" rel="stylesheet"></head>
     <body>
         <header class="header wrap">
             <h1 class="header__logo">
                 <img src="./assets/img/logo.png" alt="logo">
                 <a href="#">Dariya Akalovich</a>
             </h1>
-            <ul class="nav">
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link">contacts</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#summary" class="nav__link">summary</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#skills" class="nav__link">skills</a></li>
-                <li class="nav__item">
-                    <a href="#examples" class="nav__link">code</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#experience" class="nav__link">experience</a>
-                </li>
-                <li class="nav__item">
+            <nav class="nav">
+                    <a href="#contact" class="nav__link">contacts</a>              
+                    <a href="#summary" class="nav__link">summary</a>         
+                    <a href="#skills" class="nav__link">skills</a>       
+                    <a href="#examples" class="nav__link">code</a>       
+                    <a href="#experience" class="nav__link">experience</a>     
                     <a href="#education" class="nav__link">education</a>
-                </li>
-            </ul>
+            </nav>
         </header>
         <main class="main wrap">
             <!-- Contact -->
@@ -71,11 +60,14 @@
             </section>
 
             <section class="summary" id="summary">
-                <h2 class="section__title">summary</h2>
-                <summary class="summary__text">
-                    <p>I'm a beginner front-end specialist, my main goal is to start a career and participate in the development of complex and interesting applications. As a specialist, additionally I want to deepen my knowledge of computer sciense and algorithms.</p>
-                    <p>My education and personal interest in design's field of allows me to consider the development process more broadly, since development and design are closely interconnected between themselves.</p>
-                </summary>
+                <h2 class="section-title">summary</h2>
+                <article>
+                    <h2 class="section__title">summary</h2>
+                    <p class="summary-text">
+                        <span>I'm a beginner front-end specialist, my main goal is to start a career and participate in the development of complex and interesting applications. As a specialist, additionally I want to deepen my knowledge of computer sciense and algorithms.</span>
+                        <span>My education and personal interest in design's field of allows me to consider the development process more broadly, since development and design are closely interconnected between themselves.</span>
+                    </p>            
+                </article>                    
             </section>
 
             <!-- Skills -->
@@ -342,7 +334,7 @@
                         <p class="education-description">
                             <a href="https://rs.school/js/">Rolling Scopes School</a>
                             <span>JavaScript/Front-end</span>
-                            <time>graduated at 2020</time>
+                            <i>graduated at<time>2020</time></i>
                         </p>
                     </li>                    
                     <li class="education-item">
@@ -356,7 +348,7 @@
                         <p class="education-description">
                             <a href="https://www.it-academy.by/">IT-academy</a>
                             <span>IT-academy - Website Development Using HTML, CSS and JavaScript</span>
-                            <time>graduated at 2019</time>
+                            <i>graduated at <time>2019</time></i>
                         </p>
                     </li>
                     <li class="education-item">
@@ -370,7 +362,7 @@
                         <p class="education-description">
                             <a href="https://en.bntu.by/">Belarusian National Technical University</a>
                             <span>Design project managment at industrial enterprise</span>
-                            <time>graduated at 2019</time>
+                            <i>graduated at <time>2019</time></i>
                         </p>                        
                     </li>
                 </ul>
